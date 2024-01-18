@@ -8,21 +8,22 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: '思维驰文档库',
+  tagline: 'Switch Document Library',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://nintedoswitch-docs.cocomoe.cn',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
-
+  organizationName: 'XinyuuM', // Usually your GitHub org/user name.
+  projectName: 'NintendoSwitchDocs', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -30,8 +31,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
   },
 
   presets: [
@@ -44,14 +45,13 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/XinyuuM/NintendoSwitchDocs/tree/master/docs',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+         
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -66,9 +66,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Switch Document Library',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Switch Document Library',
           src: 'img/logo.svg',
         },
         items: [
@@ -76,60 +76,69 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: '文档库',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          {to: '/blog', label: '博客', position: 'left'},
+         
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '服务',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Coco巡查姬',
+                href: 'https://status.cocomoe.cn',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '联系方式',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+                label: '电子邮箱',
+                to: 'mailto:webmaster@cocomoe.cn'
+              }
             ],
           },
+          
           {
-            title: 'More',
+            title: '文档许可',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Creativecommons',
+                href: 'https://creativecommons.org/'
+
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: '署名-非商业性-相同方式共享',
+                href: 'https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans',
               },
+            
             ],
+            
+            
+          },
+          {
+            title: '备案信息',
+            items: [
+              {
+                label: '萌ICP备20242444号',
+                href: 'https://icp.gov.moe/?keyword=20242444',
+              },
+            
+            ],
+            
+            
+          },
+          {
+            
+            
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Cocomoe DocsTeam`,
       },
       prism: {
         theme: prismThemes.github,
