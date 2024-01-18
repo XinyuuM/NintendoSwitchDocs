@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknintendo_switch_docs=self.webpackChunknintendo_switch_docs||[]).push([[661],{1892:(e,s,n)=>{n.r(s),n.d(s,{default:()=>i});n(7294);var c=n(512),r=n(1944),t=n(5281),d=n(8790),u=n(6040),a=n(5893);function i(e){return(0,a.jsx)(r.FG,{className:(0,c.Z)(t.k.wrapper.docsPages),children:(0,a.jsx)(u.Z,{children:(0,d.H)(e.route.routes)})})}}}]);
