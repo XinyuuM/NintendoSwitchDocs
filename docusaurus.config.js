@@ -42,17 +42,13 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
+          routeBasePath: '/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/XinyuuM/NintendoSwitchDocs/tree/master/docs',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-         
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -72,13 +68,7 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: '文档库',
-          },
-          {to: '/blog', label: '博客', position: 'left'},
+          
          
         ],
       },
