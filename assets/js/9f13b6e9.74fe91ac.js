@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknintendo_switch_docs=self.webpackChunknintendo_switch_docs||[]).push([[224],{4469:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-content-blog","id":"default"}')}}]);
