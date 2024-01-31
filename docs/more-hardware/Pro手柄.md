@@ -1,5 +1,6 @@
 ---
-id: Switch Pro手柄
+id: pro-controller
+title: PRO手柄
 ---
 
 **Nintendo Switch Pro 是可替代Joy-Con的专业手柄。**
