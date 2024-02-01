@@ -11,17 +11,15 @@ slug: /
 
 :tada: ​诚挚感谢您查看本说明文档（“**本文档**”）。 
 
-本文档仍在初期编辑阶段。如果您愿意帮助我们完善这份文档，请点击页面尾部的编辑选项。
-
-在您递交合并申请后，我们会尽快地对您的fork进行合并审查。您的留言&署名将呈现在下方。
+本文档仍在初期编辑阶段。
 
 :::
 
 :::warning WARNING
 
-- 本网站是由Zelda游戏爱好者Xinyuu使用免费开源的 **[Docusaurus](https://docusaurus.io/blog/releases/3.0)** 程序制作。网站所涉及的公司名称、商标、产品等均为其各自所有者的资产，仅供识别。
+- 本网站是由Zelda游戏爱好者Xinyuu使用免费开源的 **[Docusaurus](https://docusaurus.io/)** 程序制作。网站所涉及的公司名称、商标、产品等均为其各自所有者的资产，仅供识别。
 
-- 网站内使用的游戏图片、动画、音频、文本原文，仅用于更好地表现游戏资料，其版权属于 [NINTENDO](https:www.nintendo.comm.hk)。
+- 网站内使用的游戏图片、动画、音频、文本原文，仅用于更好地表现游戏资料，其版权属于 [NINTENDO](https://www.nintendo.com.hk)。
 
 - 除非另有声明，网站其他内容采用[知识共享署名-非商业性使用-相同方式共享](https://creativecommons.org/licenses/by-nc-sa/4.0/)授权。
 
