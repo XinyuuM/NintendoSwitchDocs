@@ -3,9 +3,9 @@ id: nintendo-eshop
 title: Nintendo eShop
 sidebar_position: 5
 ---
-### 关于Eshop
+**Eshop是您购买数字版游戏的商店，您登陆的商店语言与您账号的归属地相关**
 
-<u>**Eshop是您购买数字版游戏的商店，您登陆的商店语言与您账号的归属地相关**</u>
+### 关于Eshop
 
 您可以在accounts.nintendo.com的个人资讯选单中变更您的归属地。请注意，调整归属地后，您的黄金点数将被封存。
 

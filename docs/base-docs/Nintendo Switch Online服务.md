@@ -3,9 +3,9 @@ id: nintendo-switch-online
 title: Nintendo Switch Online服务
 sidebar_position: 2
 ---
-### 关于Nintendo Switch Online
+**Nintendo Switch Online 是Nintendo Switch 专用的联机服务。**
 
-Nintendo Switch Online 是Nintendo Switch 专用的付费服务。
+### 关于Nintendo Switch Online
 
 目前拥有两款服务计划：
 

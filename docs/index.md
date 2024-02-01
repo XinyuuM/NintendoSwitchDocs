@@ -1,6 +1,6 @@
 ---
 
-title: Switch Document Library
+title: Switch Document
 sidebar_position: 1
 slug: /
 ---
