@@ -29,11 +29,9 @@ slug: /
 
 :::note 了解更多
 
-![](https://static.cocomoe.cn/static/nsdocszelda.webp)
+![](https://static.cocomoe.cn/static/kikubox-xinyuu.jpg)
 
-[Cocomoe:贡献名单](https://cocomoe.cn/blackboard/site/document/#贡献名单)
-
-[Cocomoe:收支一览](https://cocomoe.cn/blackboard/site/document/#收支一览)
+[Cocomoe:收支一览](http://www.cocomoe.cn/blackboard/topic/tp233)
 
 :::
 

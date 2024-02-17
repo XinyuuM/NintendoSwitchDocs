@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://nintedoswitch-docs.cocomoe.cn',
+  url: 'https://ns.cocomoe.cn',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -76,12 +76,17 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: '服务',
+            title: '文档',
             items: [
               {
-                label: 'Coco巡查姬',
-                href: 'https://status.cocomoe.cn',
+                label: '文档汇总',
+                href: 'https://www.cocomoe.cn/blackboard'
               },
+              {
+                label: '留言箱',
+                href: 'https://kiku.page/xinyuu'
+              },
+
             ],
           },
           {
@@ -115,8 +120,8 @@ const config = {
             title: '备案信息',
             items: [
               {
-                label: '萌ICP备20242444号',
-                href: 'https://icp.gov.moe/?keyword=20242444',
+                label: '萌ICP备20249960号',
+                href: 'https://icp.gov.moe/?keyword=20249960',
               },
             
             ],
